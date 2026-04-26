@@ -6,10 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScreen.unity
+    guid: 8f2bb8f2546ad1545bb8331cf464c8db
+  - enabled: 1
     path: Assets/Scenes/ImageTarget.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MultiTarget.unity
+    guid: 868c55b64736a0c4ab5acf3c98912b9f
+  - enabled: 1
+    path: Assets/Scenes/GroundPlane.unity
+    guid: 2dc56a9d268f23142885586dfdb9c0f8
+  - enabled: 1
+    path: Assets/Scenes/JoyStick.unity
+    guid: 9f9dbcdd3e942b8468a9ca16aef3a0e5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 18149fa1754698d45a9b002c6761b6dc, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e19a8ff46f3b3954abe765141eb140f2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 50328749a3e1ba14cad56e19747271b1, type: 2}
   m_UseUCBPForAssetBundles: 0

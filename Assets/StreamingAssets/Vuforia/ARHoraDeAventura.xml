@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="adventure-time_logo" size="0.150000 0.103125" />
+    <ImageTarget name="ice_kingdom" size="0.150000 0.085500" />
+    <ImageTarget name="casatronquitos" size="0.150000 0.085200" />
+    <ImageTarget name="marcelines-house" size="0.150000 0.084141" />
+    <ImageTarget name="casamarceline" size="0.150000 0.079200" />
+    <ImageTarget name="dulcereino" size="0.150000 0.084334" />
+    <ImageTarget name="tree-house-adventure-time" size="0.150000 0.093706" />
+  </Tracking>
+</QCARConfig>
