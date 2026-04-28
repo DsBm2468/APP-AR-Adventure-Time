@@ -1,15 +1,17 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    public JoystickController joystick;        // Tu joystick virtual
-    public float speed = 5f;                   // Velocidad de movimiento
-    public Animator animator;                  // Referencia al Animator
-    public float rotationSpeed = 10f;          // Velocidad para girar el personaje
+    public JoystickController joystick; // Tu joystick virtual
+    //public Rigidbody BMORb;
+    public float speed = 0.5f;  // Velocidad de movimiento
+    public Animator animator; // Referencia al Animator
+    public float rotationSpeed = 10f; // Velocidad para girar el personaje
 
-    [Header("Ajustes de salto del personaje")]
-    public float jumpForce = 5f;
-    public bool isGrounded = true;
+    //[Header("Ajustes de salto del personaje")]
+    //public float jumpForce = 5f;
+    //public bool isGrounded = true;
 
     private Vector2 joystickInput = Vector2.zero;
 
@@ -35,10 +37,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Jump()
-    {
+    //public void Jump()
+    //{
+    //    if (isGrounded) 
+    //    {
+    //        BMORb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    //    }
+    //}
 
-    }
     private void OnEnable()
     {
         if (joystick != null)
